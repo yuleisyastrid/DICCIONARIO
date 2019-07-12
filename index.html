@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="myWeb">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<title>Diccionarios YULEISY</title>
+	</head>
+	<body ng-controller="Cartoon">
+		<ul ng-repeat="personaje in personaje">
+  		<li><h1>{{personaje.nombre}}</h1> &nbsp; <div><img src="{{personaje.img}}" class="img-responsive" width="100px">&nbsp;</div> </li>
+
+		</ul>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
